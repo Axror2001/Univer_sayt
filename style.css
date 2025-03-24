@@ -1,0 +1,83 @@
+:root {
+    --primary-color: #002147;
+    --secondary-color: #9b2335;
+    --light-color: #f8f9fa;
+    --dark-color: #212529;
+}
+  
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+  
+.body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+.hero-section {
+    position: relative;
+    background: url("img/university.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 120px 0; 
+}
+.hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 33, 71, 0.6);
+}
+.hero-section .text-overlay {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: var(--light-color); 
+    font-size: 2rem; 
+    text-align: center; 
+    z-index: 1; 
+}
+.hero-section .text-white{
+    position: relative;
+    z-index: 1;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  }
+
+.min-vh-60{
+    min-height: 60vh;
+}
+.btn-primary {
+    background-color: var (--primary-color);
+    border-color: (--primary-color);
+    font-weight: 600;
+    padding: 10px 25px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #001a38;
+    border-color: #001a38;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2.5px);
+}
+.btn-outline-light {
+    font-weight: 600;
+    padding: 10px 25px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    border-width: 2px;
+}
+.btn-outline-light:hover, .btn-outline-light:focus {
+    background-color: white;
+    color: var(--primary-color) !important;
+    transform: translateY(-2.5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.feature-icon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
