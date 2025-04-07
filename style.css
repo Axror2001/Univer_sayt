@@ -1,12 +1,22 @@
 :root {
     --primary-color: #002147;
     --secondary-color: #9b2335;
+    --yangi-color:#2a9d8f;
+    --fu-color:#a3b18a;
     --light-color: #f8f9fa;
     --dark-color: #212529;
 }
   
 .bg-primary {
     background-color: var(--primary-color) !important;
+}
+
+.bg-yangi {
+    background-color: var(--yangi-color) !important;
+}
+
+.bg-fu {
+    background-color: var(--fu-color) !important;
 }
   
 .body {
