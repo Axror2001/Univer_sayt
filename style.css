@@ -5,6 +5,7 @@
     --fu-color:#a3b18a;
     --light-color: #f8f9fa;
     --dark-color: #212529;
+    --qora-color:#a8dadc;
 }
   
 .bg-primary {
@@ -13,6 +14,10 @@
 
 .bg-yangi {
     background-color: var(--yangi-color) !important;
+}
+
+.bg-qora {
+    background-color: var(--qora-color) !important;
 }
 
 .bg-fu {
