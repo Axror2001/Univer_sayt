@@ -7,10 +7,15 @@
     --dark-color: #212529;
     --qora-color:#a8dadc;
     --da-color:#bde0fe;
+    --qay-color:#fefae0;
 }
   
 .bg-primary {
     background-color: var(--primary-color) !important;
+}
+
+.bg-qay {
+    background-color: var(--qay-color) !important;
 }
 
 .bg-yangi {
@@ -131,4 +136,15 @@ footer {
 footer a:hover {
     color: #3aec17 !important;
     opacity: 0.9;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    width: 450px;
+    height: 300px;
 }
