@@ -79,6 +79,12 @@
     padding: 10px 25px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 }
+
+.btn-primary,
+.btn-outline-light {
+    transition: all 0.3s ease;
+}
+
 .btn-primary:hover, .btn-primary:focus {
     background-color: #001a38;
     border-color: #001a38;
@@ -145,6 +151,6 @@ footer a:hover {
 }
 
 .card {
-    width: 450px;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
 }
